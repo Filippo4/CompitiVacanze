@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CompitiVacanze
+namespace CompitiVacanze1
 {
     class Program
     {
@@ -12,11 +8,11 @@ namespace CompitiVacanze
         {
             int a = int.MaxValue;
             Console.WriteLine(a);
-            Console.WriteLine(a+1);
+            Console.WriteLine(a + 1);
             int b = -128;
             int c = -b;
-            Console.WriteLine(Convert.ToString(b,2));
-            Console.WriteLine(Convert.ToString(c,2));
+            Console.WriteLine(Convert.ToString(b, 2));
+            Console.WriteLine(Convert.ToString(c, 2));
             int value = 31;
             int somma = value;
             value = ~value + 1; // not
@@ -27,8 +23,6 @@ namespace CompitiVacanze
             Console.WriteLine(Convert.ToString(number, 2));
             short number1 = (short)number;
             Console.WriteLine(number1);
-         
-
         }
     }
 }
