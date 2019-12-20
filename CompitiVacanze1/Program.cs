@@ -7,11 +7,11 @@ namespace CompitiVacanze1
         static void Main(string[] args)
         {
             int a = int.MaxValue;
-            Console.WriteLine(a);
-            Console.WriteLine(a + 1);
+            Console.WriteLine(a); //stampa 31 1 perche è il valore massimo che si può ottenere perchè l'ultimo bit viene utilizzato solamente per il segno
+            Console.WriteLine(a + 1);// da errore perchè venendo utilizzato l'ultimo bit come segno il risultato  
             int b = -128;
             int c = -b;
-            Console.WriteLine(Convert.ToString(b, 2));
+            Console.WriteLine(Convert.ToString(b, 2)); 
             Console.WriteLine(Convert.ToString(c, 2));
             int value = 31;
             int somma = value;
